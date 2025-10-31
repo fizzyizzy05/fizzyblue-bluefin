@@ -16,7 +16,7 @@ set -ouex pipefail
 # Disable COPRs so they don't end up enabled on the final image:
 # dnf5 -y copr disable ublue-os/staging
 
-bash /ctx/install_rpms.sh
+bash /ctx/04-packages.sh
 
 #### Example for enabling a System Unit File
 
