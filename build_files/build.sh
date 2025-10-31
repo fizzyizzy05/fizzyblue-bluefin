@@ -17,7 +17,7 @@ set -ouex pipefail
 # dnf5 -y copr disable ublue-os/staging
 
 bash /ctx/04-packages.sh
+bash /ctx/17-cleanup.sh
 
 #### Example for enabling a System Unit File
-
 systemctl enable podman.socket
